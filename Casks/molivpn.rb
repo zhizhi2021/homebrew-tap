@@ -1,11 +1,11 @@
 cask "molivpn" do
-  version "1.0.2"
+  version "1.0.3"
 
   on_macos do
     arch arm: "arm64", intel: "amd64"
 
-    sha256 arm:   "b873b714d75b9c020ebb63c5f65637d496334f7e949e3d00b862be1380e3d705",
-           intel: "24e8b672448c44dd2c7a23e7cf89516cd28639504af1412b186bec04f8e7e756"
+    sha256 arm:   "8b5acbd48dc770161b1d9904e1d45878382c57359796e1cc239fb1baaf51c6e0",
+           intel: "ce6d892eb212f2ae8806c9a2a2e60d9b2d65a625f22e38cfb06f57680c0e35ac"
 
     url "https://github.com/zhizhi2021/molivpn/releases/download/v#{version}/MoliVPN-#{version}-macos-#{arch}.dmg"
   end
